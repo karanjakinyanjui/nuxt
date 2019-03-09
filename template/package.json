@@ -11,7 +11,6 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    {{#alacarte}}
     "vuetify-loader": "^1.0.5",
     {{/alacarte}}
     "nuxt": "^2.2.0",
@@ -19,9 +18,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    {{#alacarte}}
     "babel-plugin-transform-imports": "^1.5.1",
-    {{/alacarte}}
     "eslint": "^5.7.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-loader": "^2.1.1",
